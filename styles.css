@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url(mobile-version-images/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 280px 420px;
 }
 
 header {
@@ -14,15 +17,18 @@ header {
 }
 
 .my-logo {
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
-  margin-right: 10px;
+  margin-left: 300px;
 }
 
-.my-logo a {
+a {
+  
   color: #fff;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .name {
@@ -54,11 +60,13 @@ header {
   margin-right: 15px;
 }
 
-.last-image {
+/* .last-image {
   transform: translateX(19rem);
   margin-top: -14rem;
-}
+} */
 
 .section-one {
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
 }
