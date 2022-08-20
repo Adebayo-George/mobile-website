@@ -1,0 +1,64 @@
+
+body {
+  background: #1c1a19;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #3c3a39;
+  height: 20px;
+  padding: 30px 20px;
+  width: 100%;
+}
+
+.my-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.my-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.name {
+  color: #ff6b00;
+  font-size: 56px;
+  font-family: 'Crete Round', sans-serif;
+}
+
+.work {
+  color: #fff5e1;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.do_what {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  width: 90%;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin-left: -30px;
+}
+
+.icon1 {
+  margin-right: 15px;
+}
+
+.last-image {
+  transform: translateX(19rem);
+  margin-top: -14rem;
+}
+
+.section-one {
+  padding: 20px;
+}
