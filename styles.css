@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
   background-image: url(mobile-version-images/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: 280px 420px;
+  background-position: 280px 450px;
 }
 
 header {
@@ -23,7 +23,6 @@ header {
 }
 
 a {
-  
   color: #fff;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -59,11 +58,6 @@ a {
 .icon1 {
   margin-right: 15px;
 }
-
-/* .last-image {
-  transform: translateX(19rem);
-  margin-top: -14rem;
-} */
 
 .section-one {
   margin-left: auto;
