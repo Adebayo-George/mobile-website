@@ -4,6 +4,7 @@
 
 > Description the project.
 > This project is a portflio project with some icon images and background images
+updated the mobile version website by adding link buttons, and also mentioning my skill, tools and frameworks and also added some background images.
 
 
 ## Built With

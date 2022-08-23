@@ -1,12 +1,8 @@
 
 body {
-  background: #1c1a19;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(mobile-version-images/illustration-header-mobile.png);
-  background-repeat: no-repeat;
-  background-position: 280px 450px;
 }
 
 header {
@@ -22,12 +18,18 @@ header {
   margin-left: 300px;
 }
 
+nav img {
+  position: relative;
+  bottom: 1px;
+}
+
 a {
   color: #fff;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 18px;
+  padding-left: 5px;
 }
 
 .name {
@@ -63,4 +65,252 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  background: #1c1a19;
+  background-image: url(mobile-version-images/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 300px 215px;
+  width: 100%;
+}
+
+.section-two {
+  background: #fff;
+}
+
+.section-two h2 {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Crete Round', sans-serif;
+  margin-left: 20px;
+}
+
+.section-two img {
+  padding: 19px;
+}
+
+.section-two .story p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.section-two .story h3 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.section-two .my-project-button {
+  background-color: #ff7614;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 250px;
+  color: white;
+  border: 0;
+}
+
+.section-two .my-project-button:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
+.section-two .my-project-button:focus {
+  background-color: #fff5e1;
+  color: #f4f1f0;
+}
+
+.section-two .line-2 {
+  background: #e5e5e5;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.frame-works {
+  display: flex;
+  padding: 20px;
+}
+
+.frame-works li {
+  padding: 10px 12px;
+  list-style: none;
+  border: 1px solid #8993a4;
+  margin-left: 5px;
+}
+
+section .card-one {
+  width: 295px;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("mobile-version-images/Img\ Placeholder\ \(2\).png");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 20px;
+}
+
+.card-one .frame-works-two {
+  text-align: left;
+  display: flex;
+  padding-left: 10px;
+  position: relative;
+  bottom: 12px;
+}
+
+.card-one .card-one-content {
+  position: relative;
+  top: 151px;
+  color: #fff;
+}
+
+.card-one .frame-works-two li {
+  padding: 10px 12px;
+  list-style: none;
+  margin-right: 6px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.card-one .card-one-content .project-button {
+  background-color: #ff7614;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  bottom: -17px;
+  width: 100%;
+  border: 0;
+  margin-top: 3%;
+  color: white;
+}
+
+.card-one .card-one-content .project-button:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
+.card-one .card-one-content .project-button:focus {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+.card-one .card-one-content h2 {
+  padding-left: 10px;
+}
+
+.card-one .card-one-content p {
+  padding-left: 10px;
+}
+
+.section-three {
+  background: #1c1a19;
+  background-image: url("mobile-version-images/Group\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 273px;
+  height: 159vh;
+}
+
+.section-three .section-three-content {
+  padding-left: 20px;
+}
+
+.section .section-three-content {
+  display: flex;
+}
+
+.section-three .section-three-content hr {
+  position: relative;
+  top: 251px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.my-about {
+  color: #ff6b00;
+  font-size: 56px;
+  font-family: 'Crete Round', sans-serif;
+}
+
+.my-about-info {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  width: 90%;
+}
+
+.my-about-info .my-resume {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.section-three .section-three-content .my-resume {
+  background-color: #ff7614;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 250px;
+}
+
+.section-three .resume-button {
+  color: white;
+  padding: 10px;
+  background-color: #ff6b00;
+}
+
+.section-three .resume-button:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
+.section-three .resume-button:focus {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+#about-myself {
+  position: relative;
+  top: 310px;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+}
+
+#about-myself .head-one {
+  display: flex;
+}
+
+#about-myself h3 {
+  padding-left: 10px;
+}
+
+.section-two .story {
+  padding: 20px;
+}
+
+#about-myself img {
+  padding-top: 15px;
+  height: 18px;
+  width: 18px;
+}
+
+.section-three #about-myself li {
+  list-style: none;
+  height: 34px;
+  width: 95px;
+}
+
+.section-four {
+  background-color: #1c1a19;
+  height: 100vh;
 }
