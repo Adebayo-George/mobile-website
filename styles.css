@@ -309,10 +309,58 @@ section .card-one {
   height: 34px;
   width: 95px;
 }
-
 .section-four {
-  background-color: white;
   height: 50vh;
+}
+.form-content {
+
   display: flex;
   flex-direction: column;
+  background-color: white;
+  align-content: center;
+  align-items: center;
+  margin: 60px;
+  
+}
+
+.text-input{
+  height: 48px;
+  width: 327px;
+  margin-bottom: 40px;
+  border: 0;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.text-area {
+  justify-content: ;
+  width: 327px;
+  height: 114px;
+  background-color: #FBF8F7;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3C3A39;
+  padding: 12px;
+  border: 0;
+}
+
+.contact-btn {
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  border: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #FF6B00;
+  margin-top: 24px;
+}
+
+
+.form-icon {
+  display: flex;
+  justify-content: center;
 }
