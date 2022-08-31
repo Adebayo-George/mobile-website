@@ -312,8 +312,19 @@ section .card-one {
 .section-four {
   height: 50vh;
 }
-.form-content {
 
+.section-header { 
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+}
+
+.form-content {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -332,7 +343,6 @@ section .card-one {
 }
 
 .text-area {
-  justify-content: ;
   width: 327px;
   height: 114px;
   background-color: #FBF8F7;
