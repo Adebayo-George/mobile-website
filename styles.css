@@ -309,11 +309,12 @@ section .card-one {
   height: 34px;
   width: 95px;
 }
+
 .section-four {
   height: 50vh;
 }
 
-.section-header { 
+.section-header {
   height: 216px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -321,7 +322,7 @@ section .card-one {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .form-content {
@@ -331,10 +332,9 @@ section .card-one {
   align-content: center;
   align-items: center;
   margin: 60px;
-  
 }
 
-.text-input{
+.text-input {
   height: 48px;
   width: 327px;
   margin-bottom: 40px;
@@ -345,11 +345,11 @@ section .card-one {
 .text-area {
   width: 327px;
   height: 114px;
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #3C3A39;
+  color: #3c3a39;
   padding: 12px;
   border: 0;
 }
@@ -365,10 +365,9 @@ section .card-one {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  background: #FF6B00;
+  background: #ff6b00;
   margin-top: 24px;
 }
-
 
 .form-icon {
   display: flex;
