@@ -427,6 +427,15 @@ section .card-one {
   #mobile-header {
     display: none;
   }
+  .my-project-button {
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .my-project-button:hover {
+    width: 170px;
+    height: 65px;
+    background-color: red;
+  }
 
   #desktop-header ul {
     display: flex;
