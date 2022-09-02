@@ -73,18 +73,6 @@ a {
   margin-right: 15px;
 }
 
-.section-one {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  background: #1c1a19;
-  background-image: url(mobile-version-images/illustration-header-mobile.png);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: 167px;
-  background-position: right;
-}
-
 .section-one .section-one-text {
   width: 343px;
 }
@@ -420,6 +408,18 @@ section .card-one {
   #first-card-content {
     display: none;
   }
+
+  .section-one {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: #1c1a19;
+    background-image: url(mobile-version-images/illustration-header-mobile.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 167px;
+    background-position: right;
+  }
 }
 
 @media (min-width: 768px) {
@@ -446,6 +446,12 @@ section .card-one {
 
   .section-one {
     display: flex;
+    background: #1c1a19;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-position: right;
   }
 
   #img {
@@ -471,7 +477,7 @@ section .card-one {
 
   .line2 .line-hr {
     position: relative;
-    left: 279px;
+    left: 376px;
     top: -56px;
   }
 
@@ -484,7 +490,7 @@ section .card-one {
   }
 
   #first-card {
-    background-image: url(mobile-version-images/Img-Placeholder\ \(4\) .png);
+    background-image: url(mobile-version-images/Img-holder-desktop.png);
   }
 
   #first-card-content {
@@ -499,7 +505,7 @@ section .card-one {
 
   .section-three {
     background: #1c1a19;
-    background-image: url(mobile-version-images/Group\ \(3\) .png);
+    background-image: url(mobile-version-images/Group-about-me.png);
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 74px;
