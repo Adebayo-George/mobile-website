@@ -260,6 +260,7 @@ section .card-one {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
+  transition: font-size 3s ease;
 }
 
 .section-three .section-three-content .my-resume {
@@ -281,6 +282,7 @@ section .card-one {
   background-color: #fff5e1;
   color: #ff6b00;
   border: 1px solid #ff6b00;
+  font-size: 24px;
 }
 
 .section-three .resume-button:focus {
