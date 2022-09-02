@@ -227,7 +227,7 @@ section .card-one {
 }
 
 .section-three .section-three-content {
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .section .section-three-content {
@@ -245,6 +245,7 @@ section .card-one {
   color: #ff6b00;
   font-size: 56px;
   font-family: 'Crete Round', sans-serif;
+  padding-top: 32px;
 }
 
 .my-about-info {
@@ -418,7 +419,7 @@ section .card-one {
     width: 100%;
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 430px 507px;
+    background-size: -19px;
   }
 }
 
