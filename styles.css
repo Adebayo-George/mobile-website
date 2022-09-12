@@ -562,3 +562,32 @@ section .card-one {
 .section-two .div-two {
   display: flex;
 }
+
+#mobile-menu {
+  z-index: 9999;
+  position: fixed;
+  height: 100%;
+  width: calc(100% - 48px);
+  top: 0;
+  left: 0;
+  background-color: #3c3a39;
+}
+
+#mobile-menu > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #fff5e1;
+}
+
+#mobile-menu > ul > li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  
+  border-bottom: 1px solid #6f6c6b;
+  margin: 0 24px;
+  padding: 16px;
+}
