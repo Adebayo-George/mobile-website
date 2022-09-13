@@ -314,6 +314,17 @@ section .card-one {
   width: 18px;
 }
 
+#mobile-menu > ul > li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  border-bottom: 1px solid #6f6c6b;
+  margin: 0 24px;
+  padding: 16px;
+}
+
 .section-three #about-myself li {
   list-style: none;
   height: 34px;
@@ -567,27 +578,23 @@ section .card-one {
   z-index: 9999;
   position: fixed;
   height: 100%;
-  width: calc(100% - 48px);
+  width: 100%;
   top: 0;
   left: 0;
   background-color: #3c3a39;
+  display: none;
 }
 
 #mobile-menu > ul {
-  margin: 0;
+  margin-top: 2rem;
   padding: 0;
   list-style: none;
   color: #fff5e1;
+  padding-right: 130px;
 }
 
-#mobile-menu > ul > li {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  
-  border-bottom: 1px solid #6f6c6b;
-  margin: 0 24px;
-  padding: 16px;
+.icon-wrapper {
+  position: relative;
+  left: 21rem;
+  top: 2rem;
 }
