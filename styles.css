@@ -155,7 +155,7 @@ section .card-one {
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("mobile-version-images/Img\ Placeholder\ \(2\).png");
+  background-image: url("mobile-version-images/Img-Placeholder2.png");
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -429,7 +429,7 @@ section .card-one {
     background-image: url(mobile-version-images/illustration-header-mobile.png);
     width: 100%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:  290px 171px;;
     background-size: -19px;
   }
 }
@@ -482,10 +482,12 @@ section .card-one {
     margin-left: 68px;
   }
 
-  .line2 .line-hr {
+  .line2 .line-hr hr{
     position: relative;
     left: 376px;
     top: -56px;
+    margin-left: 10px;
+    margin-right: 20px;
   }
 
   .line2 {
@@ -516,7 +518,7 @@ section .card-one {
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 74px;
-    height: 213vh;
+    height: 252vh;
     width: 100%;
     background-size: 434px;
   }
@@ -597,4 +599,83 @@ section .card-one {
   position: relative;
   left: 21rem;
   top: 2rem;
+}
+
+.head-one h2{
+  width: 259px;
+  height: 82px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+/* .popup-list {
+  height: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3C3A39;
+  list-style: none;
+} */
+
+.popup-ul ul {
+  display: flex;
+}
+
+.popup-ul ul li {
+    height: 16px;
+    padding-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 5px;
+    list-style: none;
+    height: 16px;
+    position: relative;
+    left: -2rem;
+    margin-bottom: 11px;
+    margin-right: 6px;
+}
+
+#popup-text {
+  width: 311px;
+  height: 220px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.btn1 {
+  background: #FF6B00;
+    color: #fff;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    padding-bottom: 42px;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 56px;
+}
+
+#mobile-popup {
+    margin-left: 20px;
+    background-color: darkgrey;
+    z-index: 7777;
+    padding-left: 16px;
+    padding-top: 170px;
 }
