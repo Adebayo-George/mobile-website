@@ -13,9 +13,38 @@
     href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Playfair+Display&family=Poppins:ital,wght@1,300&family=Roboto:wght@300&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+  <div id="mobile-popup-background">
+  <section id="mobile-popup">
+      <div id="popup-div" class="popup-wrapper">
+        <h2 class="popup-head1">Multi Post Stories</h2>
+        <img height="20"  id="pp-cancel-btn" src="mobile-version-images/Icon.png" alt="">
+      </div>
+    <div></div>
+    <div class="popup-ul">
+      <ul>
+        <li class="popup-list">html</li>
+        <li class="popup-list">Bootstrap</li>
+        <li class="popup-list">Ruby on Rails</li>
+      </ul>
+    </div>
+    <div id="popup-content">
+      <img src="mobile-version-images/Snapshoot-Portfolio.png" alt="snapshot">
+      <p id="popup-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Harum hic autem architecto officiis amet? 
+        Quasi quaerat perferendis eos veritatis cumque
+         accusamus impedit necessitatibus, praesentium</p>
+    </div>
+    <div id="popup-button">
+      <button class="btn1">See Live <i class="fab fa-github"></i></button>
+      <button class="btn1">See Live <i class="fa-regular fa-mars"></i></button>
+    </div>
+  </section>
+  </div>
+  <section>
   <header id="mobile-header">
     <a href="#">Adebayo</a>
     <nav class="my-logo"><img id="bredcrumb"  src="mobile-version-images/Union.png" alt="">
@@ -83,85 +112,7 @@
       </div>
     </div>
     <div class="all-cards">
-    <div id="first-card">
-      <div id="first-card-content">
-        <h2>Profesional Art Printing Data</h2>
-        <p>A daily section of privately personalized reads; no accounts or sign-upsrequired. Has been the
-          industry standard dummy text eversince 1500s, whenan unknown printer took a standard dummy text</p>
-        <ul class="frame-works-two">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button class="project-button" type="submit">See Project</button>
-      </div>
     </div>
-    <div class="card-one">
-      <div class="card-one-content">
-        <h2>Profesional Art Printing Data</h2>
-        <p>A daily section of privately personalized reads; no accounts or sign-upsrequired. Has been the
-          industry standard dummy text eversince 1500s, whenan unknown printer took a standard dummy text</p>
-        <ul class="frame-works-two">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button class="project-button" type="submit">See Project</button>
-      </div>
-    </div>
-    <div class="card-one">
-      <div class="card-one-content">
-        <h2>Profesional Art Printing Data</h2>
-        <p>A daily section of privately personalized reads; no accounts or sign-upsrequired. Has been the
-          industry standard dummy text eversince 1500s, whenan unknown printer took a standard dummy text</p>
-        <ul class="frame-works-two">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button class="project-button" type="submit">See Project</button>
-      </div>
-    </div>
-    <div class="card-one">
-      <div class="card-one-content">
-        <h2>Profesional Art Printing Data</h2>
-        <p>A daily section of privately personalized reads; no accounts or sign-upsrequired. Has been the
-          industry standard dummy text eversince 1500s, whenan unknown printer took a standard dummy text</p>
-        <ul class="frame-works-two">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button class="project-button" type="submit">See Project</button>
-      </div>
-    </div>
-    <div class="card-one">
-      <div class="card-one-content">
-        <h2>Profesional Art Printing Data</h2>
-        <p>A daily section of privately personalized reads; no accounts or sign-upsrequired. Has been the
-          industry standard dummy text eversince 1500s, whenan unknown printer took a standard dummy text</p>
-        <ul class="frame-works-two">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button class="project-button" type="submit">See Project</button>
-      </div>
-      </div>
-      <div class="card-one">
-      <div class="card-one-content">
-        <h2>Profesional Art Printing Data</h2>
-        <p>A daily section of privately personalized reads; no accounts or sign-upsrequired. Has been the
-          industry standard dummy text eversince 1500s, whenan unknown printer took a standard dummy text</p>
-        <ul class="frame-works-two">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button class="project-button" type="submit">See Project</button>
-      </div>
-    </div>
-  </div>
   </section>
   <section id="about">
     <div class="section-three">
@@ -223,8 +174,8 @@
       </div>
       <div class="form">
       <form class="form-content" action="https://formspree.io/f/xeqdoddn" method="post">
-        <input class="text-input" type="text" name="text" placeholder="Full name" maxlength="30" required>
-        <input class="text-input" type="email" name="email" placeholder="Email" required>
+        <input id="fullname" class="text-input" type="text" name="text" placeholder="Full name" maxlength="30" minlength="3" required>
+        <input id="mail" class="text-input" type="email" name="email" placeholder="Email" required>
         <textarea class="text-area" name="text" placeholder="Enter text here" maxlength="500" required>
         </textarea>
         <button type="submit"   class="contact-btn">Get in touch</button>
@@ -244,7 +195,6 @@
         </ul>
       </div>
   </section>
-  <section>
     <div id="mobile-menu">
       <div class="icon-wrapper">
         <img id="cancel-btn" src="mobile-version-images/Icon.png" alt="">
@@ -256,6 +206,7 @@
       </ul>
     </div>
   </section>
+
   <script src="mobile.js"></script>
 </body>
 
