@@ -17,11 +17,13 @@
 </head>
 
 <body>
+  <div id="mobile-popup-background">
   <section id="mobile-popup">
-      <div class="popup-wrapper">
-        <img id="pp-cancel-btn" src="mobile-version-images/Icon.png" alt="">
+      <div id="popup-div" class="popup-wrapper">
+        <h2 class="popup-head1">Multi Post Stories</h2>
+        <img height="20"  id="pp-cancel-btn" src="mobile-version-images/Icon.png" alt="">
       </div>
-    <div class="head-one"><h2>Multi Post Stories</h2></div>
+    <div></div>
     <div class="popup-ul">
       <ul>
         <li class="popup-list">html</li>
@@ -41,6 +43,7 @@
       <button class="btn1">See Live <i class="fa-regular fa-mars"></i></button>
     </div>
   </section>
+  </div>
   <section>
   <header id="mobile-header">
     <a href="#">Adebayo</a>
@@ -171,8 +174,8 @@
       </div>
       <div class="form">
       <form class="form-content" action="https://formspree.io/f/xeqdoddn" method="post">
-        <input class="text-input" type="text" name="text" placeholder="Full name" maxlength="30" required>
-        <input class="text-input" type="email" name="email" placeholder="Email" required>
+        <input id="fullname" class="text-input" type="text" name="text" placeholder="Full name" maxlength="30" minlength="3" required>
+        <input id="mail" class="text-input" type="email" name="email" placeholder="Email" required>
         <textarea class="text-area" name="text" placeholder="Enter text here" maxlength="500" required>
         </textarea>
         <button type="submit"   class="contact-btn">Get in touch</button>
