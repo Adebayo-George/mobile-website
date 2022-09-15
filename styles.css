@@ -93,6 +93,17 @@ a {
   height: 278px;
 }
 
+.first-card-content p {
+  width: 295px;
+  height: 87px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
 .section-two .story p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -150,6 +161,31 @@ a {
   margin-left: 5px;
 }
 
+.first-card-content h2 {
+  width: 295px;
+  height: 81px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.first-card-content li {
+  height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  padding: 3px 8px;
+  list-style: none;
+  border: 1px solid darkgray;
+  margin: 2px;
+}
+
 section .card-one {
   width: 295px;
   height: 500px;
@@ -174,6 +210,25 @@ section .card-one {
   position: relative;
   top: 151px;
   color: #fff;
+}
+
+.popup-ul ul li {
+  height: 16px;
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 5px;
+  list-style: none;
+  position: relative;
+  left: -2rem;
+  margin-bottom: 11px;
+  margin-right: 6px;
 }
 
 .card-one .frame-works-two li {
@@ -314,6 +369,10 @@ section .card-one {
   width: 18px;
 }
 
+.popup-ul ul {
+  display: flex;
+}
+
 #mobile-menu > ul > li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -395,28 +454,6 @@ section .card-one {
   justify-content: center;
 }
 
-.first-card-content h2 {
-  width: 295px;
-  height: 81px;
-  font-family: 'Crete Round';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.first-card-content p {
-  width: 295px;
-  height: 87px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
-
 .first-card-content ul {
   display: flex;
   flex-direction: row;
@@ -426,20 +463,6 @@ section .card-one {
   height: 40px;
 }
 
-.first-card-content li {
-  height: 20px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
-  padding: 3px 8px;
-  list-style: none;
-  border: 1px solid darkgray;
-  margin: 2px;
-}
-
 .first-card .first-card-content ul button {
   position: absolute;
   width: 327px;
@@ -447,8 +470,6 @@ section .card-one {
   left: 0;
   top: 0;
 }
-
-
 
 /* MOBILE VERSION */
 @media (max-width: 768px) {
@@ -664,7 +685,7 @@ section .card-one {
 .popup-wrapper .popup-head1 {
   width: 259px;
   height: 82px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -682,44 +703,9 @@ section .card-one {
   margin-top: 40px;
 }
 
-/* .popup-list {
-  height: 16px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #3C3A39;
-  list-style: none;
-} */
-
-.popup-ul ul {
-  display: flex;
-}
-
-.popup-ul ul li {
-  height: 16px;
-  padding-top: 10px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 16px;
-  padding-bottom: 10px;
-  border: 1px solid black;
-  padding-left: 15px;
-  padding-right: 5px;
-  list-style: none;
-  height: 16px;
-  position: relative;
-  left: -2rem;
-  margin-bottom: 11px;
-  margin-right: 6px;
-}
-
 #popup-text {
   width: 333px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -735,7 +721,7 @@ section .card-one {
   background: #ff6b00;
   color: #fff;
   height: 24px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
