@@ -395,19 +395,18 @@ section .card-one {
   justify-content: center;
 }
 
-  .first-card-content h2 {
+.first-card-content h2 {
   width: 295px;
   height: 81px;
-
   font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
-  }
+  color: #fff;
+}
 
-  .first-card-content p{
+.first-card-content p {
   width: 295px;
   height: 87px;
   font-family: 'Inter';
@@ -415,38 +414,38 @@ section .card-one {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
-  }
+  color: #fff;
+}
 
-  .first-card-content ul {
+.first-card-content ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
   width: 95px;
   height: 40px;
-  }
+}
 
 .first-card-content li {
-    height: 20px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #FFFFFF;
-    padding: 3px 8px;
-    list-style: none;
-    border: 1px solid darkgray;
-    margin: 2px;
+  height: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  padding: 3px 8px;
+  list-style: none;
+  border: 1px solid darkgray;
+  margin: 2px;
 }
 
 .first-card .first-card-content ul button {
   position: absolute;
-width: 327px;
-height: 48px;
-left: 0px;
-top: 0px;
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
 }
 
 
@@ -487,10 +486,11 @@ top: 0px;
     background-image: url(mobile-version-images/illustration-header-mobile.png);
     width: 100%;
     background-repeat: no-repeat;
-    background-position:  290px 171px;;
+    background-position: 290px 171px;
     background-size: -19px;
   }
 }
+
 /* DESKTOP VERSION */
 @media (min-width: 768px) {
   #mobile-header {
@@ -540,7 +540,7 @@ top: 0px;
     margin-left: 68px;
   }
 
-  .line2 .line-hr hr{
+  .line2 .line-hr hr {
     position: relative;
     left: 376px;
     top: -56px;
@@ -661,7 +661,7 @@ top: 0px;
   top: 2rem;
 }
 
-.popup-wrapper .popup-head1{
+.popup-wrapper .popup-head1 {
   width: 259px;
   height: 82px;
   font-family: 'Roboto';
@@ -669,13 +669,13 @@ top: 0px;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-#popup-div{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 73px;
+#popup-div {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 73px;
 }
 
 #popup-div img {
@@ -698,23 +698,23 @@ top: 0px;
 }
 
 .popup-ul ul li {
-    height: 16px;
-    padding-top: 10px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 16px;
-    padding-bottom: 10px;
-    border: 1px solid black;
-    padding-left: 15px;
-    padding-right: 5px;
-    list-style: none;
-    height: 16px;
-    position: relative;
-    left: -2rem;
-    margin-bottom: 11px;
-    margin-right: 6px;
+  height: 16px;
+  padding-top: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 5px;
+  list-style: none;
+  height: 16px;
+  position: relative;
+  left: -2rem;
+  margin-bottom: 11px;
+  margin-right: 6px;
 }
 
 #popup-text {
@@ -732,26 +732,26 @@ top: 0px;
 }
 
 .btn1 {
-  background: #FF6B00;
-    color: #fff;
-    height: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    padding-bottom: 42px;
-    padding-top: 12px;
-    padding-left: 20px;
-    padding-right: 56px;
-    border: 0px;
+  background: #ff6b00;
+  color: #fff;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  padding-bottom: 42px;
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-right: 56px;
+  border: 0;
 }
 
 #mobile-popup {
-    background-color: darkgray;
-    z-index: 7777;
-    max-height: 100vh;
-    padding-left: 41px;
-    margin: 40px 14px;
+  background-color: darkgray;
+  z-index: 7777;
+  max-height: 100vh;
+  padding-left: 41px;
+  margin: 40px 14px;
 }
 
 #mobile-popup-background.show {
@@ -764,5 +764,5 @@ top: 0px;
   top: 0;
   width: 100vw;
   height: 100vh;
-  background: #00000099;
+  background: #0009;
 }
